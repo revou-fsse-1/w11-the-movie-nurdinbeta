@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Movie Watchlist | Home</title>
+    <link rel="stylesheet" href="./output.css" />
+    <header>
+      <nav class="flex flex-row flex-wrap justify-between items-start mb-6">
+        <div>
+          <a href="#">
+            <h2 class="font-bold text-4xl sm:text-sm sm:font-semibold">
+              The <br />
+              Movie <br />
+              Watchlist
+            </h2></a
+          >
+        </div>
+        <div>
+          <input
+            type="search"
+            class="w-[480px] sm:w-[60px] sm:text-sm sm:font-light h-10 bg-[#D9D9D9] placeholder:text-black rounded-[12px] text-center"
+            placeholder="Search a movie or a series"
+          />
+        </div>
+        <div>
+          <a href="./watchlist.html">
+            <button
+              class="bg-[#D9D9D9] sm:w-[60px] sm:font-light sm:text-sm h-10 w-[240px] font-bold rounded-[12px]"
+            >
+              Watchlist
+            </button></a
+          >
+        </div>
+      </nav>
+    </header>
+  </head>
+  <body class="m-8">
+    <div
+      id="main-content"
+      class="grid grid-cols-2 sm:grid-cols-1 sm:grid-row-3"
+    >
+      <section
+        class="overflow-x-hidden col-start-1 row-start-1 sm:col-start-1 sm:row-start-1"
+      >
+        <h2 class="text-2xl font-bold sm:text-[12px] sm:font-bold">
+          Currently Watching
+        </h2>
+        <div
+          id="load-current-watch"
+          class="flex flex-row justify-between gap-5 mt-4"
+        ></div>
+      </section>
+      <section
+        class="ml-8 overflow-x-hidden sm:ml-0 col-start-2 row-start-1 sm:col-start-1 sm:row-start-2"
+      >
+        <h2 class="text-2xl font-bold sm:text-[12px] sm:font-bold">
+          Previously Watching
+        </h2>
+        <div
+          id="load-previous-watch"
+          class="flex flex-row justify-between gap-5 mt-4"
+        ></div>
+      </section>
+      <section
+        class="overflow-x-hidden col-start-1 row-start-2 mt-4 sm:col-start-1 sm:row-start-3"
+      >
+        <h2 class="text-2xl font-bold sm:text-[12px] sm:font-bold">
+          Suggested to Watch
+        </h2>
+        <div
+          id="load-suggest-watch"
+          class="flex flex-row justify-between gap-5 mt-4"
+        ></div>
+      </section>
+    </div>
+    <script src="homepage.js"></script>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Movie Watchlist | Watchlist</title>
+    <link rel="stylesheet" href="./output.css" />
+    <header>
+      <nav class="flex flex-row flex-wrap justify-between items-start mb-6">
+        <div>
+          <a href="homepage.html">
+            <h2 class="font-bold text-4xl sm:font-semibold sm:text-sm">
+              The <br />
+              Movie <br />
+              Watchlist
+            </h2></a
+          >
+        </div>
+        <div>
+          <input
+            type="search"
+            class="w-[480px] sm:w-[60px] sm:text-sm sm:font-light h-10 bg-[#D9D9D9] placeholder:text-black rounded-[12px] text-center"
+            placeholder="Search a movie or a series"
+          />
+        </div>
+        <div>
+          <a href="#">
+            <button
+              class="bg-[#D9D9D9] sm:w-[60px] sm:font-light sm:text-sm h-10 w-[240px] font-bold rounded-[12px]"
+            >
+              Watchlist
+            </button></a
+          >
+        </div>
+      </nav>
+    </header>
+  </head>
+  <body class="m-8">
+    <section class="mb-10 md:w-full overflow-x-hidden col-start-1 col-end-2">
+      <div
+        class="flex flex-wrap gap-5 py-4 scrollbar-hide"
+        id="watchlist"
+      ></div>
+    </section>
+    <script src="watchlist.js"></script>
+  </body>
+</html>

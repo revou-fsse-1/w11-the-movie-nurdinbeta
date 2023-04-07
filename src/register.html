@@ -1,21 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
-    <title>The Movie Watchlist | Login</title>
+    <link rel="stylesheet" href="/dist/output.css" />
+    <title>The Movie Watchlist | Register</title>
   </head>
   <body class="flex justify-center h-screen items-center">
-    <div
-      class="flex flex-col justify-center max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8"
-    >
+    <div class="flex flex-col justify-center">
       <h1 class="text-4xl font-bold p-0 pb-6 leading-normal">
         The <br />
         Movie <br />
         Watchlist
       </h1>
-      <form class="flex flex-col w-full gap-4">
+      <form action="" class="flex flex-col w-full gap-4">
         <input
           type="text"
           id="input-username"
@@ -23,23 +22,35 @@
           placeholder="Username"
         />
         <input
+          type="text"
+          id="input-email"
+          class="w-full p-4 h-10 bg-[#D9D9D9] placeholder:text-black text-sm text-center rounded-[12px]"
+          placeholder="Email Address"
+        />
+        <input
           type="password"
           id="input-password"
           class="w-full p-4 h-10 bg-[#D9D9D9] placeholder:text-black text-sm text-center rounded-[12px]"
           placeholder="Password"
         />
+        <input
+          type="password"
+          id="input-confirm-password"
+          class="w-full p-4 h-10 bg-[#D9D9D9] placeholder:text-black text-sm text-center rounded-[12px]"
+          placeholder="Confirm Password"
+        />
       </form>
       <button
         type="submit"
-        onclick="userLogin()"
+        onclick="userRegister()"
         class="w-full h-10 mt-8 mb-4 text-md text-white bg-[#37C6F3] active:bg-[#106984] rounded-[12px]"
         id="input-button"
       >
         Login
       </button>
       <span class="text-[#6D6D6D] font-md"
-        >You don't have an account?
-        <a href="register.html" class="font-bold">Sign Up</a></span
+        >Already have an account?
+        <a href="index.html" class="font-bold">Login</a></span
       >
     </div>
     <script src="index.js"></script>

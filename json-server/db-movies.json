@@ -29,6 +29,12 @@
       "password": "cihuy123",
       "email": "cihuy123@gmail.com",
       "id": 5
+    },
+    {
+      "username": "nube",
+      "email": "nurdinbeta@gmail.com",
+      "password": "nube123",
+      "id": 6
     }
   ],
   "movies": [
@@ -51,7 +57,7 @@
     {
       "id": 2,
       "title": "One Piece Film: Red",
-      "image": "https://m.media-amazon.com/images/M/MV5BNDBhM2IxMzItOTdmZi00NmMzLWFlNTgtN2E2MDRjODU4NzEzXkEyXkFqcGdeQXVyODMyNTM0MjM@._V1_FMjpg_UX1000_.jpg",
+      "image": "https://www.impericon.com/432x624x90/media/catalog/product/g/b/gbydco194_sl.jpg",
       "synopsis": "Untuk pertama kalinya, Uta - penyanyi paling dicintai akan mengungkapkan dirinya kepada dunia di konser langsungnya. Suara yang ditunggu-tunggu oleh seluruh dunia akan segera bergema.",
       "genre": [
         "Animation",
@@ -200,7 +206,7 @@
     {
       "id": 2,
       "title": "One Piece Film: Red",
-      "image": "https://m.media-amazon.com/images/M/MV5BNDBhM2IxMzItOTdmZi00NmMzLWFlNTgtN2E2MDRjODU4NzEzXkEyXkFqcGdeQXVyODMyNTM0MjM@._V1_FMjpg_UX1000_.jpg",
+      "image": "https://www.impericon.com/432x624x90/media/catalog/product/g/b/gbydco194_sl.jpg",
       "synopsis": "Untuk pertama kalinya, Uta - penyanyi paling dicintai akan mengungkapkan dirinya kepada dunia di konser langsungnya. Suara yang ditunggu-tunggu oleh seluruh dunia akan segera bergema.",
       "genre": [
         "Animation",
@@ -349,7 +355,7 @@
     {
       "id": 2,
       "title": "One Piece Film: Red",
-      "image": "https://m.media-amazon.com/images/M/MV5BNDBhM2IxMzItOTdmZi00NmMzLWFlNTgtN2E2MDRjODU4NzEzXkEyXkFqcGdeQXVyODMyNTM0MjM@._V1_FMjpg_UX1000_.jpg",
+      "image": "https://www.impericon.com/432x624x90/media/catalog/product/g/b/gbydco194_sl.jpg",
       "synopsis": "Untuk pertama kalinya, Uta - penyanyi paling dicintai akan mengungkapkan dirinya kepada dunia di konser langsungnya. Suara yang ditunggu-tunggu oleh seluruh dunia akan segera bergema.",
       "genre": [
         "Animation",
@@ -381,7 +387,7 @@
     {
       "id": 2,
       "title": "One Piece Film: Red",
-      "image": "https://m.media-amazon.com/images/M/MV5BNDBhM2IxMzItOTdmZi00NmMzLWFlNTgtN2E2MDRjODU4NzEzXkEyXkFqcGdeQXVyODMyNTM0MjM@._V1_FMjpg_UX1000_.jpg",
+      "image": "https://www.impericon.com/432x624x90/media/catalog/product/g/b/gbydco194_sl.jpg",
       "synopsis": "Untuk pertama kalinya, Uta - penyanyi paling dicintai akan mengungkapkan dirinya kepada dunia di konser langsungnya. Suara yang ditunggu-tunggu oleh seluruh dunia akan segera bergema.",
       "genre": [
         "Animation",
@@ -476,7 +482,7 @@
     {
       "id": 2,
       "title": "One Piece Film: Red",
-      "image": "https://m.media-amazon.com/images/M/MV5BNDBhM2IxMzItOTdmZi00NmMzLWFlNTgtN2E2MDRjODU4NzEzXkEyXkFqcGdeQXVyODMyNTM0MjM@._V1_FMjpg_UX1000_.jpg",
+      "image": "https://www.impericon.com/432x624x90/media/catalog/product/g/b/gbydco194_sl.jpg",
       "synopsis": "Untuk pertama kalinya, Uta - penyanyi paling dicintai akan mengungkapkan dirinya kepada dunia di konser langsungnya. Suara yang ditunggu-tunggu oleh seluruh dunia akan segera bergema.",
       "genre": [
         "Animation",
