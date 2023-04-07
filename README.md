@@ -1,4 +1,4 @@
-# The Movie Wishlist
+# The Movie Watchlist
 
 ## Links
 
