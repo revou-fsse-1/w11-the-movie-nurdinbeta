@@ -21,7 +21,7 @@ async function displayCurrentWatching() {
       return `
         <div>
         <a href="movie.html?id=${movies.id}">
-        <img src="${movies.image}" class="rounded-[12px] object-cover"/>
+        <img width="130px" height="200px" src="${movies.image}" class="rounded-[12px] object-cover"/>
         </a>
         </div>
         `;
@@ -51,7 +51,7 @@ async function displayPreviousWatch() {
       return `
       <div>
       <a href="movie.html?id=${movies.id}">
-      <img src="${movies.image}" class="rounded-[12px] object-cover"/>
+      <img width="130px" height="200px" src="${movies.image}" class="rounded-[12px] object-cover"/>
       </a>
       </div>
       `;
@@ -78,9 +78,9 @@ async function displaySuggestWatch() {
   const listMovies = data
     .map((movies) => {
       return `
-          <div class="flex">
+          <div>
           <a href="movie.html?id=${movies.id}">
-          <img src="${movies.image}" class="rounded-[12px] object-cover"/>
+          <img width="130px" height="200px" src="${movies.image}" class="rounded-[12px] object-cover"/>
           </a>
           </div>
           `;

@@ -10,7 +10,7 @@ async function fetchMovieDetails(id) {
 
 async function displayMovieDetails() {
   const urlSource = new URLSearchParams(window.location.search);
-  const id = urlSource.get(id);
+  const id = urlSource.get("id");
   const movieDetails = document.getElementById("movie-details");
   const data = await fetchMovieDetails(id);
   const genre = data.genre
@@ -22,23 +22,21 @@ async function displayMovieDetails() {
 
   movieDetails.innerHTML = `
   <div class="w-auto h-6">
-  <h2 class="font-bold text-4xl">${data.title}</h2>
+  <h2 class="font-bold text-4xl sm:text-5xl sm:text-center">${data.title}</h2>
   </div>
   
-  <div class="flex flex-1 sm:mt-10">
-  <img src="${data.image}" class="object-fill hidden md:flex h-72 w-52 rounded-2xl mt-1"/>
-  <div class="flex flex-col flex-wrap">
+  <div class="flex flex-row sm:flex-col justify-around mt-10 sm:mt-20 sm:items-center">
+  <img src="${data.image}" class="object-fill sm:mt-6 h-72 w-52 rounded-2xl mt-5"/>
+
   <div>  
-  <iframe width="375" height="230" class="rounded-2xl sm:hidden mt-16 flex lg:ml-20" src="${data.trailer}"></iframe>
-  <p class="lg:ml-1 lg:justify-evenly flex mx-1 h-min w-auto lg:mt-7 font-bold mt-5 sm:mt-7 ">${genre}</p>
+  <p class="ml-6 flex justify-evenly h-min w-auto font-bold sm:font-semibold sm:text-center mt-7 sm:mt-7 ">${genre}</p>
+  <p class="ml-6 text-lg sm:text-sm mt-5 sm:mt-5 sm:ml-3 sm:font-semibold sm:text-center font-bold w-80">${data.synopsis}</p>
+  <p class="ml-6 mt-10 sm:text-center">IMBD Rating ⭐${data.rating}/10</p>
   </div>
-  <p class=" relative text-lg sm:text-sm mt-5 sm:mt-5 sm:ml-3 font-bold w-80">${data.synopsis}</p>
-  <p class="lg:ml-3 mt-20">IMBD Rating ⭐${data.rating}/10</p>
+  <div>
+  <iframe width="375px" height="230px" class="rounded-2xl sm:hidden mt-16 flex ml-20" src="${data.trailer}"></iframe>
   </div>
-  <div class="sm:-mt-4">  
-  <iframe width="590" height="320" class="rounded-2xl hidden sm:flex lg:ml-20" src="${data.trailer}"></iframe>
-  </div>
-  </div>
+
   `;
 }
 displayMovieDetails();

@@ -16,7 +16,7 @@ async function displayWatchlist() {
       return `
         <div>
         <a href="movie.html?id=${movies.id}">
-        <img src="${movies.image}" class="rounded-[12px] object-cover"/>
+        <img width="130px" height="200px" src="${movies.image}" class="rounded-[12px] object-cover"/>
         </a>
         </div>
         `;

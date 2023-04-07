@@ -446,36 +446,6 @@
       "trailer": "https://www.youtube.com/embed/neY2xVmOfUM",
       "imdb_rating": 8.2,
       "isWatched": false
-    },
-    {
-      "id": 9,
-      "title": "Avengers: Endgame",
-      "image": "https://th.bing.com/th/id/OIP.KNfIqaD92jvecpbxNWWQ4wHaJ4?w=139&h=185&c=7&r=0&o=5&pid=1.7",
-      "synopsis": "After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.",
-      "year": 2019,
-      "genre": [
-        "Action",
-        "Adventure",
-        "superhero"
-      ],
-      "trailer": "https://www.youtube.com/embed/TcMBFSGVi1c",
-      "imdb_rating": 8.4,
-      "isWatched": false
-    },
-    {
-      "id": 10,
-      "title": "Avengers: Infinity War",
-      "image": "https://th.bing.com/th/id/OIP.ZkOmuqOWNqKDYkMKe2YeAgHaK-?w=204&h=303&c=7&r=0&o=5&pid=1.7",
-      "synopsis": "The Avengers must stop Thanos, an intergalactic warlord, from getting his hands on all the infinity stones. However, Thanos is prepared to go to any lengths to carry out his insane plan.",
-      "year": 2018,
-      "genre": [
-        "Action",
-        "Adventure",
-        "superhero"
-      ],
-      "trailer": "https://www.youtube.com/embed/6ZfuNTqbHE8",
-      "imdb_rating": 8.4,
-      "isWatched": false
     }
   ],
   "watchlist": [
